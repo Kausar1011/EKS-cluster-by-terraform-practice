@@ -1,8 +1,3 @@
-provider "aws" {
-  region = var.aws_region
-}
-
-# Module Calls
 module "vpc" {
   source = "./modules/vpc"
 }
